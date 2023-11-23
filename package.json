@@ -1,0 +1,22 @@
+{
+  "name": "tss-secret-generator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "secret:generat": "node --experimental-specifier-resolution=node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rosen-bridge/tss": "^1.1.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">=18.12.0"
+  }
+}
