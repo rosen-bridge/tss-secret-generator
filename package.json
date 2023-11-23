@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "secret:generat": "node --experimental-specifier-resolution=node ./dist/index.js"
+    "secret:generate": "node --experimental-specifier-resolution=node ./dist/index.js"
   },
   "author": "",
   "license": "ISC",

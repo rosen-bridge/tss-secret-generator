@@ -13,10 +13,10 @@ git clone https://github.com/rosen-bridge/tss-secret-generator.git
 cd tss-secret-generator/
 npm install         # Install dependencies
 npm run build       # Build project
-npm secret:generat  # Generate TSS secret
+npm secret:generate  # Generate TSS secret
 ```
 
 ### docker usage
 ```shell
-docker run -it --rm tss-secret-generator npm run secret:generat
+docker run -it --rm ghcr.io/rosen-bridge/tss-secret-generator:latest npm run secret:generate
 ```
