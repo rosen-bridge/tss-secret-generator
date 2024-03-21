@@ -1,3 +1,5 @@
+# ⚠️ This script has been permanently relocated to the package [@rosen-bridge/cli](https://github.com/rosen-bridge/utils/tree/dev/packages/cli#tss-secret-generate)
+
 # TSS Secret Generator
 ## Description
 
